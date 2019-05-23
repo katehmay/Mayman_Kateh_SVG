@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="rainbow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 107.2 107" style="enable-background:new 0 0 107.2 107;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#525555;}
+	.st1{fill:#BA83B5;}
+	.st2{fill:#E19D46;}
+	.st3{fill:#9DD5BA;}
+	.st4{fill:#8EC9E2;}
+	.st5{fill:#E8557B;}
+	.st6{fill:#E6BD41;}
+	.st7{fill:#6EC5A1;}
+	.st8{fill:#6D9BCC;}
+	.st9{fill:#F0F5F7;}
+	.st10{fill:#D3D7D7;}
+</style>
+<polygon id="rainbow-bg" class="st0" points="54,0 46.5,0 37.5,13.8 22,10.2 10.8,21 14,37 0,46.2 0,61 13.8,70.5 10.2,86 21,96.8 
+	37.2,93.5 46,107 61.5,107 70.2,93.8 85.8,97 97.2,85.5 93.5,70.5 107.2,61.5 107.2,46 93.8,36.8 97.2,21.2 86.2,10.2 70.2,14.2 
+	61.5,0 "/>
+<polygon id="colour-purple" class="st1" points="16.8,23.2 23.2,16.2 36.2,19.8 42.2,33 33.8,42 19.5,37 "/>
+<polygon id="colour-dark-orange" class="st2" points="84.2,16.8 91.2,23.2 87.8,36.2 74.5,42.2 65.5,33.8 70.5,19.5 "/>
+<polygon id="colour-light-green" class="st3" points="91,84 84.5,91 71.5,87.5 65.5,74.2 74,65.2 88.2,70.2 "/>
+<polygon id="colour-light-blue" class="st4" points="23.8,91.2 16.8,84.8 20.2,71.8 33.5,65.8 42.5,74.2 37.5,88.5 "/>
+<polygon id="colour-red" class="st5" points="49.5,5.8 58,5.8 65.5,16.8 60.2,31.2 54.5,34.8 47.8,32 42.2,17.8 "/>
+<polygon id="colour-light-orange" class="st6" points="101.8,49 101.8,57.5 90.8,65 76.2,59.8 72.8,54 75.5,47.2 89.8,41.8 "/>
+<polygon id="colour-dark-green" class="st7" points="58.2,102 49.8,102 42.2,91 47.5,76.5 53.2,73 60,75.8 65.5,90 "/>
+<polygon id="colour-dark-blue" class="st8" points="5,58.2 5,49.8 16,42.2 30.5,47.5 34,53.2 31.2,60 17,65.5 "/>
+<polygon id="white-middle" class="st9" points="37.5,46.8 46.9,37.4 53.9,40.8 61.2,37.4 70.3,46.4 66.8,53.9 70.3,61 61.5,69.8 
+	53.9,66.8 47,69.8 38.1,60.9 41.2,53.9 "/>
+<path id="dark-grey-square" class="st0" d="M60.5,63.5H47.2c-1.7,0-3-1.3-3-3V47.2c0-1.7,1.3-3,3-3h13.2c1.7,0,3,1.3,3,3v13.2
+	C63.5,62.2,62.2,63.5,60.5,63.5z"/>
+<rect id="light-grey-square" x="50" y="50" class="st10" width="7.8" height="7.8"/>
+</svg>

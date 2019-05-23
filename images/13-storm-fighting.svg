@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="storm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 105.1 90.9" style="enable-background:new 0 0 105.1 90.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#95512F;}
+	.st1{fill:#DB7740;}
+</style>
+<circle id="fist-bg" class="st0" cx="59.7" cy="45.5" r="45.5"/>
+<circle id="fist-main" class="st1" cx="59.7" cy="45.5" r="37.9"/>
+<path id="fist-fingers" class="st0" d="M99.3,48.4H21.8v-5.5h77.5V48.4z M62.8,2h-4.7v41h4.7V2z M82.3,9.3h-4.6v33.6h4.6V9.3z
+	 M43.5,9.3h-4.8v33.6h4.8V9.3z"/>
+<circle id="thumb-bg" class="st0" cx="19.3" cy="45.6" r="19.3"/>
+<circle id="thumb-main" class="st1" cx="19.3" cy="45.6" r="13.2"/>
+</svg>

@@ -1,0 +1,28 @@
+body{
+	font-size:16px;
+}
+
+.hidden{
+	display:none;
+}
+
+.main-headline{
+	text-align:center;
+	margin:20px 0 30px;
+	font-size:2.5rem;
+}
+
+#kanto-badges, #johto-badges{
+  margin:auto;
+  width:800px;
+  text-align:center;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+#boulder, #cascade, #thunder, #rainbow, #soul, #marsh, #volcano, #earth, #zephyr, #hive, #plain, #fog, #storm, #mineral, #glacier, #rising{
+  cursor:pointer;
+  height:100px;
+  margin-top:60px;
+}

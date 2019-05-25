@@ -1,5 +1,6 @@
 body{
 	font-size:16px;
+  background-color:#1f3e75;
 }
 
 .hidden{
@@ -12,17 +13,202 @@ body{
 	font-size:2.5rem;
 }
 
+p{
+  font-family:verdana, sans-serif;
+  font-size:12px;
+  line-height:18px;
+  letter-spacing:1px;
+  color:#575757;
+  width:580px;
+  margin:auto;
+}
+
+h1{
+  font-family:garamond, serif;
+  letter-spacing:2px;
+  font-size:27px;
+  font-weight:lighter;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding-bottom:15px;
+  border-bottom:solid thin;
+}
+
+h3{
+  font-family:verdana,sans-serif;
+  font-size:18px;
+  color:#393939;
+  font-weight:lighter;
+  letter-spacing:1px;
+  margin-top:25px;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-bottom:25px;
+  border-bottom:solid thin #c5c5c5;
+  border-top:solid thin #c5c5c5;
+}
+
+#wrapper{
+  margin:auto;
+  padding-top:70px;
+  padding-bottom:90px;
+  width:760px;
+  background-color:#fff;
+}
+
+#pokemon-badges{
+  margin:auto;
+  text-align:center;
+}
+
+#kanto{
+  margin-top:30px;
+}
+
 #kanto-badges, #johto-badges{
   margin:auto;
-  width:800px;
+  width:680px;
   text-align:center;
   display:flex;
   flex-direction:row;
   justify-content:space-evenly;
 }
+#kanto-badges section, #johto-badges section{
+  width:120px;
+}
 
 #boulder, #cascade, #thunder, #rainbow, #soul, #marsh, #volcano, #earth, #zephyr, #hive, #plain, #fog, #storm, #mineral, #glacier, #rising{
   cursor:pointer;
   height:100px;
-  margin-top:60px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+/* next two stylings for SVG opacity change. I didn't even know CSS had a limit for how many elements can be put into a style before now. Silly rule. */
+
+.boulder-st1:hover, .cascade-st1:hover, .thunder-st1:hover, .soul-st1:hover, .marsh-st1:hover, .volcano-st1:hover, .earth-st1:hover, .zephyr-st1:hover, .hive-st1:hover, .plain-st1:hover, .fog-st1:hover, .storm-st1:hover, .mineral-st1:hover, .glacier-st1:hover, .rising-st1:hover{
+  opacity:0.5;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.thunder-st3:hover, .rainbow-st1:hover, .rainbow-st2:hover, .rainbow-st3:hover, .rainbow-st4:hover, .rainbow-st5:hover, .rainbow-st6:hover, .rainbow-st7:hover, .rainbow-st8:hover, .soul-st2:hover, .marsh-st2:hover, .hive-st3:hover, .plain-st2:hover, .glacier-st2:hover, .rising-st2:hover {
+  opacity:0.3;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+/*general background of all svg icons changed*/
+
+.boulder-st0:hover, .cascade-st0:hover, .thunder-st0:hover, .rainbow-st0:hover, .soul-st0:hover, .marsh-st0:hover, .volcano-st0:hover, .earth-st0:hover, .zephyr-st0:hover, .hive-st0:hover, .plain-st0:hover, .fog-st0:hover, .storm-st0:hover, .mineral-st0:hover, .glacier-st0:hover, .rising-st0:hover{
+  opacity:1;
+  fill:#fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: -1; /* hide shadow behind image */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+/* div backgrounds for icons begins here */
+
+#boulder-badge{
+  background-color:#f1f1f1;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#cascade-badge{
+  background-color:#e4f5fe;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#thunder-badge{
+  background-color:#ffebd1;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#rainbow-badge{
+  background-color:#ecfaff;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#soul-badge{
+  background-color:#fff2fa;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#marsh-badge{
+  background-color:#fff2e2;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#volcano-badge{
+  background-color:#ffe9ef;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#earth-badge{
+  background-color:#f5ffec;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#zephyr-badge{
+  background-color:#f7f8ea;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#hive-badge{
+  background-color:#ffebe9;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#plain-badge{
+  background-color:#fef6e3;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#fog-badge{
+  background-color:#f2f3fe;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#storm-badge{
+  background-color:#fbe8df;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#mineral-badge{
+  background-color:#f3f4f4;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#glacier-badge{
+  background-color:#def6fe;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#rising-badge{
+  background-color:#ffecf1;
+  padding-left:25px;
+  padding-right:25px;
 }

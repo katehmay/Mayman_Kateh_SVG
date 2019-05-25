@@ -11,15 +11,15 @@
       soulSVG = document.querySelector("#soul"),
       marshSVG = document.querySelector("#marsh"),
       volcanoVG = document.querySelector("#volcano"),
-      earthSVG = document.querySelector("#earth") ;
-      zephyrSVG = document.querySelector("#zephyr") ;
-      hiveSVG = document.querySelector("#hive") ;
-      plainSVG = document.querySelector("#plain") ;
-      fogSVG = document.querySelector("#fog") ;
-      stormSVG = document.querySelector("#storm") ;
-      mineralSVG = document.querySelector("#mineral") ;
-      glacierSVG = document.querySelector("#glacier") ;
-      risingSVG = document.querySelector("#rising") ;
+      earthSVG = document.querySelector("#earth"),
+      zephyrSVG = document.querySelector("#zephyr"),
+      hiveSVG = document.querySelector("#hive"),
+      plainSVG = document.querySelector("#plain"),
+      fogSVG = document.querySelector("#fog"),
+      stormSVG = document.querySelector("#storm"),
+      mineralSVG = document.querySelector("#mineral"),
+      glacierSVG = document.querySelector("#glacier"),
+      risingSVG = document.querySelector("#rising");
 
   //----------functions begin here--------//
 
